@@ -6,6 +6,8 @@ const homeInfo = {"dataInfo":"My name is Ethan Johnson, I have built this websit
 
 const projectInfo = {"dataInfo":"These are the projects I am working on, I am working on programming technologies including different types of web technology. I also maintain my own personal servers for personal use and projects."}
 
+const recommendInfo = {"dataInfo":"I come highly recommended"}
+
 const contactMeInfo = {"Header":"Contact Me", "PhoneNum":"0481983721", "email":"generaljohnson01@gmail.com"}
 
 var simpleInfo = Handlebars.compile('<div class = info><p>{{dataInfo}}</p></div>')
@@ -56,6 +58,8 @@ window.addEventListener('hashchange', function() {
         infoView ("main", projectInfo);
     } else if (URL == "Contact") {
         contactView ("main", contactMeInfo);
+    } else if (URL == "Recommendations") {
+        infoView ("main", recommendInfo);
     }
 })
 

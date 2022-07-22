@@ -9,17 +9,29 @@
     row-gap:10px;
     background-color: grey;
     margin:0;
+    border-radius: 25px;
 }
 
 .logo {
     margin-left: 30%;
-    width: 40%;
+    width: 30%;
     margin-top: 2%;
     grid-column-start: 1;
 }
 
+
+.topNav {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+}
+
 .Search {
     background-color: grey;
+}
+
+.Login {
+    text-align: right;
 }
 
 .mainNav {
@@ -41,46 +53,34 @@
 }
 
 .navBar li{
-    display: inline-block;
-    background-color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: grey;
+    display: block;
+    border-radius: 10px;
 }
 
-.navBar a:link,
-.navBar a:visited {
-    color: white;
-    text-decoration-line: unset;
+.navBar a {
+    float: none;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    
 }
 
-.navBar li:link,
-.navBar li:visited {
-    color: white;
-}
-
-/*
-    Makes it so the individual buttons in the navigation bar change colour when the cursor is hovered over them
-*/
-.navBar a:hover,
-.navBar a:focus {
+.navBar a:hover {
+    background-color: #ddd;
     color: black;
-    background: white;
+    border-radius: 10px;
 }
-
-.navBar li:hover,
-.navBar li:focus {
-    background: white;
-}
-
-
-
-
-
 
 
 
 
 
 body {
-    background-image: url("Sea1.jpg");
+    background-color: #0B0052FF;
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size: 100% 100%;
@@ -95,6 +95,7 @@ main {
     width:90%;
     background-color: white;
     height: 80%;
+    border-radius: 25px;
 }
 
 .footer {
@@ -104,4 +105,5 @@ main {
     width:90%;
     background-color: grey;
     height:10%;
+    border-radius: 25px;
 }
