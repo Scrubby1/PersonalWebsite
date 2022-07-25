@@ -12,6 +12,7 @@
     background-color: lightgrey;
     margin:0;
     border-radius: 25px;
+    font-size: x-large;
 }
 
 .logo {
@@ -79,9 +80,6 @@
 
 body {
     background-color: #072932;
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    background-size: 100% 100%;
 }
 
 main {
@@ -89,6 +87,7 @@ main {
     margin-left: 5%;
     width:90%;
     border-radius: 25px;
+    font-size: x-large;
 }
 
 /* CSS for the Home Page */
@@ -107,11 +106,13 @@ main {
     margin:0;
     margin-top: 0;
     margin-bottom:0;
+    font-size: xx-large;
 }
 
 .titleScreen h1 {
     margin: 0;
-    padding: 20%;
+    padding: 15%;
+
 }
 
 .homearrows {
@@ -132,6 +133,7 @@ main {
     grid-template-columns: 50% 50%;
     background-color: lightgray;
     border-radius: 25px;
+    font-size: x-large;
 }
 
 
@@ -273,6 +275,7 @@ main {
     background-color: grey;
     height:10%;
     border-radius: 25px;
+    font-size: large;
 }
 
 .footerLeft{
@@ -287,4 +290,141 @@ main {
 .footerRight {
     padding-top: 5%;
     text-align: right;
+}
+
+
+/* CSS FOR ABOUT PAGE */
+
+.aboutPage {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:x-large;
+    background-color: lightgrey;
+    border-radius: 25px;
+    padding-bottom: 0.5%;
+}
+
+.aboutIntro {
+    display:grid;
+    margin: 5%;
+    padding: 2%;
+    grid-template-columns: 70% 30%;
+    column-gap: 2%;
+    font-size:xx-large;
+    margin-bottom: 2%;
+}
+
+.aboutPicMe {
+    margin:10%;
+
+    grid-column-start: 2;
+}
+
+.aboutPicMe2{
+    width: 60%;
+    padding: 7%;
+    border-radius: 25px;
+    border-color: grey;
+    border-style: solid;
+    background-color: lightgrey;
+}
+
+.aboutPhoto1 {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.aboutRunDown{
+    grid-column-start: 1;
+    grid-row: 1;
+}
+
+.aboutStudies{
+    display:grid;
+    background-color: white;
+    margin: 5%;
+    margin-top: 2%;
+    grid-template-columns: 70% 30%;
+    column-gap: 2%;
+    padding: 2%;
+    border-radius: 25px;
+}
+
+.aboutStudiesTxt {
+    grid-column: 1;
+}
+
+.clarkeQuote{
+    padding: 2%;
+}
+
+.aboutStudiesImg {
+    grid-column: 2;
+}
+
+.hackerImg {
+    width: 60%;
+    margin: 10%;
+}
+
+.aboutWork{
+    background-color: white;
+    border-radius: 25px;
+    margin: 5%;
+    padding: 2%;
+    display:grid;
+    grid-template-columns: 30% 70%;
+    column-gap: 2%;
+}
+
+.aboutWorkTxt{
+    grid-column: 2;
+}
+
+.supportQuote{
+    padding: 2%;
+    padding-bottom: 5%;
+}
+
+
+.aboutWorkImg{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.aboutTechSupport {
+    width: 60%;
+    margin: 10%;
+}
+
+.aboutWorkXPLink {
+    margin: 5%;
+    margin-top: 8%;
+    margin-bottom: 3%;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    column-gap: 2%;
+    width: 40%;
+    color: black;
+    border-radius: 25px;
+    text-decoration: none;
+    border-color: black;
+    border-width: 2%;
+    border-style: solid;
+}
+
+.abtWrkXpLinkTxt {
+    padding: 2%;
+    padding-left: 5%;
+    grid-column: 1;
+}
+
+.abtWrkXpLinkImg{
+    border-radius: 25px;
+    padding: 2%;
+    grid-column: 2;
+}
+
+.aboutLinkImg{
+    width: 80%;
+    margin: 10%;
 }
