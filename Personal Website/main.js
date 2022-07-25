@@ -2,11 +2,11 @@ var URL;
 
 const aboutInfo = {"dataInfo": "I am an Cybersecurity student, junior programmer and web developer, history buff and IT enthusiast."}
 
-const homeInfo = {"dataInfo":"My name is Ethan Johnson, I have built this website to serve as a testament to my programming and web development ability."}
+const homeInfo = {"MyTitle":"Programmer, IT Consultant & Cyber Security Student","AboutMe":"I am a professional IT Consultant studying a full time bachelor of Cyber Security at MQU.", "Projects":"I work on a number of personal projects including personal programming, web development and server management projects.", "WorkXP":"I have a wide range of work experience in both paid and volunteer positions accross a range of industries.", "Contact":"Find out more on how to get in touch with me here."}
 
 const projectInfo = {"dataInfo":"These are the projects I am working on, I am working on programming technologies including different types of web technology. I also maintain my own personal servers for personal use and projects."}
 
-const recommendInfo = {"dataInfo":"I come highly recommended"}
+const workXPInfo = {"dataInfo":"I come highly recommended"}
 
 const errorInfo = {"dataInfo":"Error 404, Unrecognized link"}
 
@@ -14,7 +14,22 @@ const contactMeInfo = {"Header":"Contact Me", "PhoneNum":"0481983721", "email":"
 
 /* Handlebars compilers for formats */
 
-var homeTemplate = Handlebars.compile('<div class="homePage"><div class="titleScreen"><h1>{{MyTitle}}</h1></div><div class="fourSections"><div class="homeAbout"><div class="homeAboutText"><h1>About Me</h1><p>{{AboutMe}}</p><p>Click to See More</p></div><div class="homeAboutImage"><img src="home.jpg" alt="homeImage" class="homePic"></div></div><div class="homeProjectsText"><h1>Projects</h1><p>{{Projects}}</p><p>Click to See More</p></div><div class="homeWorkXPText"><h1>Work Experience</h1><p>{{WorkXP}}</p><p>Click to See More</p></div><div class="homeContactText"><h1>Contact Me</h1><p>{{Contact}}</p><p>Click to see More</p></div></div></div>')
+var homeTemplate = Handlebars.compile('<div class="homePage"><div class="titleScreen"><h1>{{MyTitle}}</h1></div><div class="homeArrows"><img src="Uparrows.png" alt="arrows" class="upArrows"></img></div><div class="fourSections"><a href="#!/About" class="homeAbout"><div class="homeAboutText"><h1>About Me</h1><p>{{AboutMe}}</p><p>Click to See More</p></div><div class="homeAboutImage"><img src="aboutMe.png" alt="me" class="picOfMe"></img></div></a><a href="#!/Projects" class="homeProjects"><div class="homeProjectsText"><h1>Projects</h1><p>{{Projects}}</p><p>Click to See More</p></div><div class="homeProjectsImage"><img src="projects.png" alt="projectImage" class="projectPic"></img></div></a><a href="#!/WorkXP" class="WorkXP"><div class="homeWorkXPText"><h1>Work Experience</h1><p>{{WorkXP}}</p><p>Click to See More</p></div><div class="homeWorkXPImg"><img src="workXP.png" alt="workXpImg" class="xpPic"></img></div></a><a href="#!/Contact" class="homeContact"><div class="homeContactText"><h1>Contact Me</h1><p>{{Contact}}</p><p>Click to see More</p></div><div class="homeContactImg"><img src="phone.png" alt="phoneContactImg" class="contactPic"></img></div></a></div></div>')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 var simpleInfo = Handlebars.compile('<div class = info><p>{{dataInfo}}</p></div>')
 
@@ -43,9 +58,9 @@ function contactView (targetID, info) {
 /* Onstart function for displaying the home page on load */
 
 function onStart () {
-    const homeInfo = {"dataInfo":"My name is Ethan Johnson, I have built this website to serve as a testament to my programming and web development ability."}
+    const homeInfo = {"MyTitle":"Programmer, IT Consultant & Cyber Security Student","AboutMe":"I am a professional IT Consultant studying a full time bachelor of Cyber Security at MQU.", "Projects":"I work on a number of personal projects including personal programming, web development and server management projects.", "WorkXP":"I have a wide range of work experience in both paid and volunteer positions accross a range of industries.", "Contact":"Find out more on how to get in touch with me here."}
 
-    infoView ("main", homeInfo);
+    homeView ("main", homeInfo);
 }
 
 /* Function to get the URL and make it shorter and easier to view */
@@ -77,8 +92,8 @@ window.addEventListener('hashchange', function() {
         infoView ("main", projectInfo);
     } else if (URL == "Contact") {
         contactView ("main", contactMeInfo);
-    } else if (URL == "Recommendations") {
-        infoView ("main", recommendInfo);
+    } else if (URL == "WorkXP") {
+        infoView ("main", workXPInfo);
     } else {
         infoView ("main", errorInfo)
     }
