@@ -271,7 +271,7 @@ main {
     column-gap: 10px;
     margin-left: 5%;
     padding: 1%;
-    width:90%;
+    width:88%;
     background-color: grey;
     height:10%;
     border-radius: 25px;
@@ -401,30 +401,32 @@ main {
     margin-top: 8%;
     margin-bottom: 3%;
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 70% 30%;
     column-gap: 2%;
     width: 40%;
     color: black;
     border-radius: 25px;
     text-decoration: none;
-    border-color: black;
-    border-width: 2%;
-    border-style: solid;
+
+    background-color: lightblue;
+
 }
 
 .abtWrkXpLinkTxt {
     padding: 2%;
     padding-left: 5%;
+    padding-top: 5%;
     grid-column: 1;
 }
 
 .abtWrkXpLinkImg{
     border-radius: 25px;
     padding: 2%;
+
     grid-column: 2;
 }
 
 .aboutLinkImg{
-    width: 80%;
+    width: 60%;
     margin: 10%;
 }

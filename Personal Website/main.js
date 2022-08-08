@@ -10,10 +10,10 @@ const homeInfo = {
 
 const aboutInfo = {"education":"3rd Year Student studying a Bachelors of Cyber Security at Macquarie University",
 "work":"Professional Information Technology Consultant",
-"header1":"Well what is so interesting about Cyber Security?",
+"header1":"What is so interesting about Cyber Security?",
 "intro1":"Well, to quote Richard Clarke, the former Special Advisor to the President (President Bush) on cybersecurity:",
 "quote1":"“If you spend more on coffee than on IT security, you will be hacked. What's more, you deserve to be hacked”",
-"description1":"In the 2020-2021 financial year, the Australian Cyber Security Center alone recieved 67500 reports of Cybercrime with associated losses totalling over $33 billion dollars, which is substantially higher than the previous year. What makes it scarier is that these statistics are only representative of cybercrime that was actually reported. So, whether we like it or not, hacking and cybercrime is here to stay, and this is where Cyber security professionals, hopefully including me one day soon, come in.",
+"description1":"In the 2020-2021 financial year, the Australian Cyber Security Center alone recieved 67 500 reports of Cybercrime with associated losses totalling over $33 billion dollars, which is substantially higher than the previous year. What makes it scarier is that these statistics are only representative of cybercrime that was actually reported. So, whether we like it or not, hacking and cybercrime is here to stay, and this is where Cyber security professionals, hopefully including me one day soon, come in.",
 "skills1":"Doing this course has give me skills in both the technical and cyber security management skills to identify, evaluate and implement solutions to cybersecurity threats in a cost effective manner.",
 "header2":"Error Code: 001 PEBKAC error",
 "intro2":"For a brief summary of my work as an IT Consultant, I will direct you to a definition from my personal friend and professional adversary, Bill Gates:",
