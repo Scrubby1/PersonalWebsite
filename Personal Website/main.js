@@ -54,7 +54,39 @@ const projectsInfo = {"projectHead":"About the projects I work on",
 "serverLi3":"How to utilise hardware to achieve the best results and how to troubleshoot issues in hardware and software to fix issues."
 }
 
-const workXPInfo = {"dataInfo":"I come highly recommended"}
+const expInfo = {"header":"Experience",
+"headerTxt":"This is a page dedicated to showing my employment and education experience.",
+"2header1":"High School",
+"1b":"Alexandria Park Community School",
+"HSLI1":"Studied from Year 8 (2015) to Year 12 (2019)",
+"HSLI2":"Studied in the High School's selective class.",
+"HSLI3":"Frequently got academic awards for science and other classes",
+"2header2":"Tertiary Education",
+"2b":"Macquarie University",
+"MQLI1":"Studying a Bachelor of Cyber Security",
+"MQLI2":"Studying here from early 2020 to present",
+"2header3":"First Job",
+"3b":"Mcdonalds",
+"MCLI1":"Worked here from mid 2016 to late 2019",
+"MCLI2":"Worked in front area",
+"MCLI3":"Worked casually due to studying",
+"2header4":"IT Support",
+"4b":"Full Circle Software",
+"FCSLI1":"Role as Information Technology Consultant",
+"FCSLI2":"Working here from early 2020 to present",
+"FCSLI3":"Worked in a number of Department of Education NSW Schools, including major technology highschools.",
+"2header5":"Extra Curricular",
+"5b":"Australian Navy Cadets",
+"CADLI1":"Participated from late 2014 through till late 2019",
+"CADLI2":"Achieved the rank of Cadet Petty Officer",
+"CADLI3":"Managed and conducted large scale events for a large number of cadets",
+"CADLI4":"Worked with senior staff to develop training plans",
+"2header6":"Installation Work",
+"6b":"Working at CDM Computers",
+"CDMLI1":"Worked here from late 2021 to early 2022",
+"CDMLI2":"Worked casually installing workstations in office buildings",
+"CDMLI3":"Worked here due to lack of work at FCS due to COVID"
+}
 
 const errorInfo = {"dataInfo":"Error 404, Unrecognized link"}
 
@@ -67,6 +99,8 @@ var homeTemplate = Handlebars.compile('<div class="homePage"><div class="titleSc
 var aboutTemplate = Handlebars.compile('<div class="aboutPage"><div class="aboutIntro"><div class = "aboutPicMe"><div class="aboutPicMe2"><img src="Photo4.png" alt="me" class="aboutPhoto1"></img></div></div><div class="aboutRunDown"><h1>Who is Ethan?</h1><p>About me:</p><ul><li>{{education}}</li><li>{{work}}</li></ul></div></div><div class="aboutStudies"><div class="aboutStudiesTxt"><h1>{{header1}}</h1><p>{{intro1}}</p><div class="clarkeQuote"><i>{{quote1}}</i></div><p>{{description1}}</p><p>{{skills1}}</p> </div><div class="aboutStudiesImg"><img src="hacker.png" alt="hacker" class="hackerImg"></img></div></div><div class="aboutWork"><div class="aboutWorkTxt"><h1>{{header2}}</h1><p>{{intro2}}</p><div class="supportQuote"><i>{{quote2}}</i></div><p>{{description2}}</p><ul><li>{{skillsli1}}</li><li>{{skillsli2}}</li><li>{{skillsli3}}</li></ul><a href="#!/WorkXP" class="aboutWorkXPLink"><div class="abtWrkXpLinkTxt"><p>To find out more about my work as an IT consultant, click here.</p></div><div class="abtWrkXpLinkImg"><img src="link.png" alt="Link to Work experience" class="aboutLinkImg"></img></div></a></div><div class="aboutWorkImg"><img src="techSupport.png" alt="Tech Support" class="aboutTechSupport"></img></div></div></div> ')
 
 var projectTemplate = Handlebars.compile('<div class="projectsPage"><div class="projectsIntro"><div class="projectsIntTxt"><h1>{{projectHead}}</h1><p>{{projectText}}</p></div><div class="projectsIntImg"><img src="newProjects.png" alt="projects" class="projectsPhoto1"></img></div></div><div class="corporateProjects"><h2>{{workProjects}}</h2><p>{{wrkProjSumm}}</p><div class="corpProj1"><div class="corpProj1Txt"><h3>{{intraHead}}</h3><p>{{intraTxt1}}</p><p>{{intraTxt2}}</p><ul><li>{{intraLi1}}</li><li>{{intraLi2}}</li><li>{{intraLi3}}</li></ul></div><div class="corpProj1Img"><img src="intranet.png" alt="intranet" class="projectsPhoto2"></img></div></div><div class="corpProj2"><div class="corpProj1Txt"><h3>{{compUpHead}}</h3><p>{{compUpTxt1}}</p><p>{{compUpTxt2}}</p><ul><li>{{compUpLi1}}</li><li>{{compUpLi2}}</li></ul></div><div class="corpProj2Img"><img src="pcbuilding.png" alt="pc modification" class="projectsPhoto3"></img></div></div></div><div class="personalProjects"><h2>{{persProjects}}</h2><p>{{persProjSumm}}</p><div class="persProj1"><div class="persProj1Txt"><h3>{{websiteHead}}</h3><p>{{websiteTxt1}}</p><p>{{websiteTxt2}}</p><ul><li>{{websiteLi1}}</li><li>{{websiteLi2}}</li></ul></div><div class="persProj1Img"><img src="webBuilding.png" alt="Website building" class="projectsPhoto4"></img></div></div><div class="persProj2"><div class="persProj2Txt"><h3>{{serverHead}}</h3><p>{{serverTxt1}}</p><p>{{serverTxt2}}</p><ul><li>{{serverLi1}}</li><li>{{serverLi2}}</li><li>{{serverLi3}}</li></ul></div><div class="persProj2Img"><img src="server.png" alt="server" class="projectsPhoto5"></img></div></div></div></div>')
+
+var expTemplate = Handlebars.compile ('<div class="experiencePage"><div class="expHeaderSection"><h1>{{header}}</h1><p>{{headerTxt}}</p></div><div class="workMain"><!-- Cadets --><div class="expCadets"><div class="expCadGrid"><div class="expCadGridTxt"><h2>{{2header5}}</h2><b>{{5b}}</b><ul><li>{{CADLI1}}</li><li>{{CADLI2}}</li><li>{{CADLI3}}</li><li>{{CADLI4}}</li></ul></div><div class="expCadGridImg"><img src="navy.png" alt="navy" class="expPhoto1"></img></div></div></div><!--High School Section--><div class="expHS"><div class="expHSGrid"><div class="expHSGridTxt"><h2>{{2header1}}</h2><b>{{1b}}</b><ul><li>{{HSLI1}}</li><li>{{HSLI2}}</li><li>{{HSLI3}}</li></ul></div><div class="expHSGridImg"><img src="hs.png" alt="uni" class="expPhoto1"></img></div></div></div><div class="lineToExpHS"><!--herro--></div><!--End High School Section--><!-- Macquarie University --><div class="expMQ"><div class="expMqGrid"><div class="expMqGridTxt"><h2>{{2header2}}</h2><b>{{2b}}</b><ul><li>{{MQLI1}}</li><li>{{MQLI2}}</li></ul></div><div class="expMqGridImg"><img src="uni.png" alt="uni" class="expPhoto1"></img></div></div></div><div class="expMaccas"><h2>{{2header3}}</h2><b>{{3b}}</b><ul><li>{{MCLI1}}</li><li>{{MCLI2}}</li><li>{{MCLI3}}</li></ul></div><!-- FCS Section--><div class="expFCS"><div class="expFCSGrid"><div class="expFCSGridTxt"><h2>{{2header4}}</h2><b>{{4b}}</b><ul><li>{{FCSLI1}}</li><li>{{FCSLI2}}</li><li>{{FCSLI3}}</li></ul></div><div class="expFCSGridImg"><img src="itsup.png" alt="uni" class="expPhoto1"></img></div></div></div><div class="lineToExpFCS"><!--<p>herro</p>--></div><div class="expCDM"><h2>{{2header6}}</h2><b>{{6b}}</b><ul><li>{{CDMLI1}}</li><li>{{CDMLI2}}</li><li>{{CDMLI3}}</li></ul></div><div class="startExpLine"><!--herro--></div><div class="endExpLine"><!--herro--></div></div></div>')
 
 var simpleInfo = Handlebars.compile('<div class = info><p>{{dataInfo}}</p></div>')
 
@@ -88,6 +122,12 @@ function aboutView (targetID, info) {
 
 function projectView (targetID, info) {
     const list = projectTemplate(info)
+    const target = document.getElementById(targetID)
+    target.innerHTML = list;
+}
+
+function expView (targetID, info) {
+    const list = expTemplate(info)
     const target = document.getElementById(targetID)
     target.innerHTML = list;
 }
@@ -150,8 +190,8 @@ window.addEventListener('hashchange', function() {
         projectView ("main", projectsInfo);
     } else if (URL == "Contact") {
         contactView ("main", contactMeInfo);
-    } else if (URL == "WorkXP") {
-        infoView ("main", workXPInfo);
+    } else if (URL == "Experience") {
+        expView ("main", expInfo);
     } else {
         infoView ("main", errorInfo)
     }

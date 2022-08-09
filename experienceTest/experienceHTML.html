@@ -1,0 +1,222 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="experienceCSS.css">
+</head>
+
+const expInfo = {"header":"Experience",
+"headerTxt":"This is a page dedicated to showing my employment and education experience.",
+"2header1":"High School",
+"1b":"Alexandria Park Community School",
+"HSLI1":"Studied from Year 8 (2015) to Year 12 (2019)",
+"HSLI2":"Studied in the High School's selective class.",
+"HSLI3":"Frequently got academic awards for science and other classes",
+"2header2":"Tertiary Education",
+"2b":"Macquarie University",
+"MQLI1":"Studying a Bachelor of Cyber Security",
+"MQLI2":"Studying here from early 2020 to present",
+"2header3":"First Job",
+"3b":"Mcdonalds",
+"MCLI1":"Worked here from mid 2016 to late 2019",
+"MCLI2":"Worked in front area",
+"MCLI3":"Worked casually due to studying",
+"2header4":"IT Support",
+"4b":"Full Circle Software",
+"FCSLI1":"Role as Information Technology Consultant",
+"FCSLI2":"Working here from early 2020 to present",
+"FCSLI3":"Worked in a number of Department of Education NSW Schools, including major technology highschools.",
+"2header5":"Extra Curricular",
+"5b":"Australian Navy Cadets",
+"CADLI1":"Participated from late 2014 through till late 2019",
+"CADLI2":"Achieved the rank of Cadet Petty Officer",
+"CADLI3":"Managed and conducted large scale events for a large number of cadets",
+"CADLI4":"Worked with senior staff to develop training plans",
+"2header6":"Installation Work",
+"6b":"Working at CDM Computers",
+"CDMLI1":"Worked here from late 2021 to early 2022",
+"CDMLI2":"Worked casually installing workstations in office buildings",
+"CDMLI3":"Worked here due to lack of work at FCS due to COVID"
+}
+
+
+
+
+<body>
+
+    <main>
+
+        <!--Include code from here-->
+
+        <div class="experiencePage">
+
+            <div class="expHeaderSection">
+                
+                <h1>{{header}}</h1>
+
+                <p>{{headerTxt}}</p>
+
+            </div>
+
+
+            <div class="workMain">
+                
+                <!-- Cadets -->
+                <div class="expCadets">
+
+                    <div class="expCadGrid">
+
+                        <div class="expCadGridTxt">
+
+                        <h2>{{2header5}}</h2>
+                        <b>{{5b}}</b>
+
+                            <ul>
+
+                                <li>{{CADLI1}}</li>
+                                <li>{{CADLI2}}</li>
+                                <li>{{CADLI3}}</li>
+                                <li>{{CADLI4}}</li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="expCadGridImg">
+                            <img src="navy.png" alt="navy" class="expPhoto1"></img>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!--High School Section-->
+                <div class="expHS">
+
+                    <div class="expHSGrid">
+                    
+                        <div class="expHSGridTxt">
+                    
+                            <h2>{{2header1}}</h2>
+                            <b>{{1b}}</b>
+                    
+                            <ul>
+                    
+                                <li>{{HSLI1}}</li>
+                                <li>{{HSLI2}}</li>
+                                <li>{{HSLI3}}</li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="expHSGridImg">
+                            <img src="hs.png" alt="uni" class="expPhoto1"></img>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="lineToExpHS">
+                    <!--herro-->
+                </div>
+                <!--End High School Section-->
+
+                <!-- Macquarie University -->
+                <div class="expMQ">
+
+                    <div class="expMqGrid">
+
+                        <div class="expMqGridTxt">
+
+                            <h2>{{2header2}}</h2>
+                            <b>{{2b}}</b>
+
+                            <ul>
+
+                                <li>{{MQLI1}}</li>
+                                <li>{{MQLI2}}</li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="expMqGridImg">
+                            <img src="uni.png" alt="uni" class="expPhoto1"></img>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="expMaccas">
+                    <h2>{{2header3}}</h2>
+                    <b>{{3b}}</b>
+
+                    <ul>
+
+                        <li>{{MCLI1}}</li>
+                        <li>{{MCLI2}}</li>
+                        <li>{{MCLI3}}</li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- FCS Section-->
+                <div class="expFCS">
+
+                    <div class="expFCSGrid">
+
+                        <div class="expFCSGridTxt">
+                    
+                            <h2>{{2header4}}</h2>
+                            <b>{{4b}}</b>
+
+                            <ul>
+
+                                <li>{{FCSLI1}}</li>
+                                <li>{{FCSLI2}}</li>
+                                <li>{{FCSLI3}}</li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="expFCSGridImg">
+                            <img src="itsup.png" alt="uni" class="expPhoto1"></img>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="lineToExpFCS">
+                    <!--<p>herro</p>-->
+                </div>
+
+                <div class="expCDM">
+                    
+                    <h2>{{2header6}}</h2>
+                    <b>{{6b}}</b>
+
+                    <ul>
+
+                        <li>{{CDMLI1}}</li>
+                        <li>{{CDMLI2}}</li>
+                        <li>{{CDMLI3}}</li>
+
+                    </ul>
+                </div>
+
+                <div class="startExpLine"><!--herro--></div>
+
+                <div class="endExpLine"><!--herro--></div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
