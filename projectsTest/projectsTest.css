@@ -16,24 +16,28 @@ main {
 }
 
 .projectsIntro {
+    margin:2%;
     padding: 2%;
+    border-radius: 25px;
+    background-color: lightgray;
     display: grid;
     grid-template-columns: 70% 30%;
     column-gap: 2%;
 }
 
 .projectsIntTxt {
-    background-color: lightgray;
+
     padding: 2%;
     border-radius: 25px;
     width: 78%;
 }
 
 .projectsIntImg {
-    background-color: lightgray;
+
     padding: 2%;
     border-radius: 25px;
     width: 30%;
+    text-align: center;
 }
 
 .projectsPhoto1{
@@ -62,6 +66,83 @@ main {
 }
 
 .projectsPhoto2 {
+    margin-top: 10%;
+    width:60%;
+}
+
+.corpProj2{
+    margin-top: 3%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 25px;
+    display:grid;
+    grid-template-columns: 80% 20%;
+    column-gap: 2%;
+}
+
+.corpProj2Img {
+    text-align: center;
+}
+
+.projectsPhoto3 {
+    margin-top: 10%;
+    width:60%;
+}
+
+
+.personalProjects {
+    margin: 2%;
+    background-color: lightgrey;
+    border-radius: 24px;
+    padding: 1%;
+}
+
+.persProj1 {
+    margin-top: 3%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 25px;
+    display:grid;
+    grid-template-columns: 20% 80%;
+    column-gap: 2%;
+}
+
+.persProj1Txt{
+    grid-column: 2;
+}
+
+.persProj1Img {
+    grid-column:1;
+    grid-row:1;
+    text-align: center;
+}
+
+.projectsPhoto4 {
+    margin-top: 10%;
+    width:60%;
+}
+
+.persProj2 {
+    margin-top: 3%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 25px;
+    display:grid;
+    grid-template-columns: 20% 80%;
+    column-gap: 2%;
+}
+
+.persProj2Txt{
+    grid-column: 2;
+}
+
+.persProj2Img {
+    grid-column:1;
+    grid-row:1;
+    text-align: center;
+}
+
+.projectsPhoto5 {
     margin-top: 10%;
     width:60%;
 }
