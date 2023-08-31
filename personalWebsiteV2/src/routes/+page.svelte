@@ -10,11 +10,13 @@
 
     onMount(() => {
 		myArrows = document.getElementById("homeArrows");
+
+        window.onscroll = function (e) {
+            myArrows.style.visibility="hidden";
+        }
 	});
 
-    window.onscroll = function (e) {
-        myArrows.style.visibility="hidden";
-    }
+
 
 </script>
 
@@ -110,7 +112,6 @@
     column-gap: 4%;
     row-gap: 4%;
     border-radius: 25px;
-
     font-size: x-large;
 }
 

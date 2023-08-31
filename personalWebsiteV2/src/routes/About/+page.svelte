@@ -74,8 +74,6 @@
 <style>
 #aboutPage {
     color: white;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 #aboutIntro{
     padding: 5%;

@@ -109,8 +109,9 @@ body {
 #mainContent {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 2%;
-    margin-left: 5%;
-    width:90%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width:80%;
     border-radius: 25px;
     font-size: x-large;    
 }
