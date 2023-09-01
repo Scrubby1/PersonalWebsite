@@ -16,10 +16,10 @@ main {
 }
 
 .projectsIntro {
-    color: white;
     margin:2%;
     padding: 2%;
     border-radius: 25px;
+    background-color: lightgray;
     display: grid;
     grid-template-columns: 70% 30%;
     column-gap: 2%;
