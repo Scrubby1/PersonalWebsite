@@ -42,7 +42,7 @@
     </div>
 
     <div id = "footerRight">
-        <p>Contact Me: ethan.j.johnson01@gmail.com</p>
+        <a id="contactLinkTwo" href="/Contact"><p>Contact Me</p></a>
     </div>
 
 </footer>

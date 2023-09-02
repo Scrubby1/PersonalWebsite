@@ -103,93 +103,75 @@
             </div>
         </div>
 
+        <div id="educationExp">
+            <div id="expHS" class = "box">
 
+                <div id="expHSGrid">
+                
+                    <div id="expHSGridTxt">
+                
+                        <h2>{Twoheader1}</h2>
+                        <b>{Oneb}</b>
+                
+                        <ul>
+                
+                            <li>{HSLI1}</li>
+                            <li>{HSLI2}</li>
+                            <li>{HSLI3}</li>
+    
+                        </ul>
+    
+                    </div>
+    
+                </div>
+            </div>
+    
+            <div id="expMQ" class = "box">
 
+                <div id="expMqGrid">
         
-        <!-- Cadets -->
+                    <div id="expMqGridTxt">
+        
+                        <h2>{Twoheader2}</h2>
+                        <b>{Twob}</b>
+        
+                        <ul>
+        
+                            <li>{MQLI1}</li>
+                            <li>{MQLI2}</li>
+        
+                        </ul>
+        
+                    </div>
+        
+                </div>
+        
+            </div>
+
+        </div>
+
         <div id="expCadets" class = "box">
 
             <div id="expCadGrid">
 
                 <div id="expCadGridTxt">
 
-                <h2>{Twoheader5}</h2>
-                <b>{Fiveb}</b>
+                    <h2>{Twoheader5}</h2>
+                    <b>{Fiveb}</b>
 
-                    <ul>
+                        <ul>
 
-                        <li>{CADLI1}</li>
-                        <li>{CADLI2}</li>
-                        <li>{CADLI3}</li>
-                        <li>{CADLI4}</li>
+                            <li>{CADLI1}</li>
+                            <li>{CADLI2}</li>
+                            <li>{CADLI3}</li>
+                            <li>{CADLI4}</li>
 
-                    </ul>
+                        </ul>
 
                 </div>
 
                 <div id="expCadGridImg">
-                    <img src="navy.png" alt="navy" id="expPhoto1"/>
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <!--High School Section-->
-        <div id="expHS" class = "box">
-
-            <div id="expHSGrid">
-            
-                <div id="expHSGridTxt">
-            
-                    <h2>{Twoheader1}</h2>
-                    <b>{Oneb}</b>
-            
-                    <ul>
-            
-                        <li>{HSLI1}</li>
-                        <li>{HSLI2}</li>
-                        <li>{HSLI3}</li>
-
-                    </ul>
-
-                </div>
-
-                <div id="expHSGridImg">
-                    <img src="hs.png" alt="uni" id="expPhoto1"/>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div id="lineToExpHS">
-            <!--herro-->
-        </div>
-        <!--End High School Section-->
-
-        <!-- Macquarie University -->
-        <div id="expMQ" class = "box">
-
-            <div id="expMqGrid">
-
-                <div id="expMqGridTxt">
-
-                    <h2>{Twoheader2}</h2>
-                    <b>{Twob}</b>
-
-                    <ul>
-
-                        <li>{MQLI1}</li>
-                        <li>{MQLI2}</li>
-
-                    </ul>
-
-                </div>
-
-                <div id="expMqGridImg">
-                    <img src="uni.png" alt="uni" id="expPhoto1"/>
+                    <img src="navy.png" alt="navy" id="expPhoto1" class="img"/>
                 </div>
 
             </div>
@@ -201,15 +183,40 @@
 </div>
 
 <style>
-
+#expHeaderSection{
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+#workMain {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 3;
+    row-gap: 1.5%;
+}
 #payedWork {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     column-gap: 5%;
     grid-template-rows: 1;
 }
+
+#educationExp{
+    display: grid;
+    grid-template-columns: 47.5% 47.5%;
+    column-gap: 5%;
+    grid-template-rows: 1;
+}
+
+#expCadGrid {
+    display: grid;
+    grid-template-columns: 75% 20%;
+    column-gap: 5%;
+}
 .box {
-    padding: 2%;
+    padding: 5%;
     margin-top: 2%;
     margin-bottom: 2%;
     background: rgba(255, 255, 255, 0.2);
@@ -220,5 +227,10 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
+}
+.img {
+    padding-top: 20%;
+    padding-right: 20%;
+    width: 80%;
 }
 </style>
