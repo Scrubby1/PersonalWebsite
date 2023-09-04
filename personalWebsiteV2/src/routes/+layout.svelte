@@ -119,6 +119,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-left: 20%;
     padding-right: 20%;
+    margin-top: 3%;
     width: 60%;
     display: grid;
     grid-template-columns: 30% 30% 30%;

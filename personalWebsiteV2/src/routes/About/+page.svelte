@@ -4,14 +4,11 @@
     let hobby1="Home labbing enthusiast";
     let hobby2="Amateur web developer";
     let header1="What is so interesting about Cyber Security?";
-    let intro1="Well, to quote Richard Clarke, the former Special Advisor to the President (President Bush) on cybersecurity:";
-    let quote1="“If you spend more on coffee than on IT security, you will be hacked. What's more, you deserve to be hacked”";
-    let description1="In the 2020-2021 financial year, the Australian Cyber Security Center alone recieved 67 500 reports of Cybercrime with associated losses totalling over $33 billion dollars, which is substantially higher than the previous year. What makes it scarier is that these statistics are only representative of cybercrime that was actually reported. So, whether we like it or not, hacking and cybercrime is here to stay, and this is where Cyber security professionals, hopefully including me one day soon, come in.";
-    let skills1="Doing this course has give me skills in both the technical and cyber security management skills to identify, evaluate and implement solutions to cybersecurity threats in a cost effective manner.";
+    let intro1="Richard Clarke, former Special Advisor to President Bush on cybersecurity, highlighted the importance of prioritizing IT security. In the 2020-2021 fiscal year, the Australian Cyber Security Centre reported 67,500 cybercrime incidents with losses exceeding $33 billion, marking an increase from the prior year. It's worth noting these figures only represent reported incidents. The persistent nature of cyber threats underscores the vital role of cybersecurity professionals. I am equipped, through my training, with the technical and managerial expertise to effectively address cybersecurity challenges.";
     let header2="Error Code: 001 PEBKAC error";
-    let intro2="For a brief summary of my work as an IT Consultant, I will direct you to a definition from my personal friend and professional adversary, Bill Gates:";
+    let intro2="When talking about how technology impacts human life, Bill Gates once said: ";
     let quote2="“The advance of technology is based on making it fit in so that you don’t really even notice it, so it’s part of everyday life.”";
-    let description2="I currently work part-time as an IT Consultant for a large IT Support and Software Development company. In this role I have worked closely with a range of major schools for the New South Wales Department of Education. This has given me a range of skills including: ";
+    let description2="This is something that I have worked to achieve, by working to integrate technology into the education environment as seemlessly as possible. I currently work part-time as an IT Consultant for a large IT Support and Software Development company. In this role I have worked closely with a range of large schools for the New South Wales Department of Education. This has given me a range of skills including: ";
     let skillsli1="Working with upper management to manage large-scale IT infrastructure";
     let skillsli2="Working with people from a large range of backgrounds regarding their IT literacy";
     let skillsli3="Working with IT hardware and software management and development.";
@@ -40,11 +37,6 @@
         <div id="aboutStudiesTxt">
             <h1>{header1}</h1>
             <p>{intro1}</p>
-            <div id="clarkeQuote">
-                <i>{quote1}</i>
-            </div>
-            <p>{description1}</p>
-            <p>{skills1}</p> 
         </div>
         <div id="aboutStudiesImg">
             <img src="hacker.png" alt="hacker" id="hackerImg" class="boxImages"/>
@@ -76,7 +68,7 @@
     color: white;
 }
 #aboutIntro{
-    padding: 5%;
+    padding: 2%;
     padding-left: 10%;
     padding-right: 10%;
     display: grid;

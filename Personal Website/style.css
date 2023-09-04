@@ -139,36 +139,7 @@ main {
 
 /* For the section on the about me page */
 
-.homeAbout {
-    grid-column: 1;
-    grid-row: 1;
-    margin: 5%;
-    padding: 5%;
-    border-color: black;
-    background-color: white;
-    border-radius: 25px;
-    display:grid;
-    text-decoration-line: none;
-    color: black;
-    grid-template-columns: 55% 40%;
-    column-gap: 5%;
-}
 
-.homeAboutText {
-    grid-column: 1;
-    text-decoration: none;
-
-}
-
-.homeAboutImage {
-    grid-column: 2;
-    float: none;
-}
-
-.picOfMe {
-    padding: 5%;
-    width: 90%;
-}
 
 /* Section for projects on the home page */
 

@@ -5,16 +5,16 @@
     let workProjects="Work Projects";
     let wrkProjSumm="This is a summary of a number of corporate programs I worked on.";
     let intraHead="Intranet Creation";
-    let intraTxt1="As part of my work at Full Circle Software (FCS)(See Work Experience for more details) I worked with the company's founder to create training documentation and guides for staff development and training. In this project I worked exclusively remotely, working independantly to create detailed and thourough step-by-step guides and in-depth documentation for use by all members of staff, including management.";
-    let intraTxt2="This Project gave me skills in the following areas:";
-    let intraLi1="Working independantly helped me to improve my ability to work within given parameters to achieve goals without instruction.";
-    let intraLi2="Creating documentation for projects in a simple, quick and easy-to-read way that made it simple for users to find the required information.";
-    let intraLi3="Helped me with developing my abilities in regards to considering a product from the perspective of the end user.";
+    let intraTxt1="At Full Circle Software (FCS) (refer to Work Experience for specifics), I collaborated with the company's founder to produce training materials for staff enhancement. Operating entirely remotely, I independently crafted comprehensive step-by-step guides and documentation suitable for all staff tiers, including management.";
+    let intraTxt2="From this project, I gained:";
+    let intraLi1="Proficiency in autonomous work, ensuring objectives were met within set parameters.";
+    let intraLi2="Expertise in producing clear, efficient, and user-friendly documentation.";
+    let intraLi3="Enhanced ability to view products from an end-user perspective.";
     let compUpHead="Computer Updates";
-    let compUpTxt1="While working at Full Circle Software (FCS) I worked closely with school management to plan and implement a plan to upgrade thecomputers at the school. In this project, I worked to survey and analyse the desktops at the school and evaluate whether they required upgrading to perform best. I then developed a plan and found suppliers, from there I worked with staff to implement the new computer upgrades as seemlessly with their work as possible.";
-    let compUpTxt2="This project gave me the following skills:";
-    let compUpLi1="Working with management and staff to smoothly and effectively implement projects.";
-    let compUpLi2="Exploring and analysing options to provide cost effective solutions to issues.";
+    let compUpTxt1="At Full Circle Software (FCS), I collaborated with school management to assess and enhance the school's computer systems. I conducted a thorough evaluation of the desktops to determine upgrade needs, formulated a plan, sourced suppliers, and coordinated with staff to ensure seamless integration of the computer upgrades.";
+    let compUpTxt2="From this endeavor, I gained:";
+    let compUpLi1="Proficiency in collaborating with various stakeholders for efficient project execution.";
+    let compUpLi2="Expertise in analyzing options to derive cost-effective solutions.";
     let persProjects="Personal Projects";
     let persProjSumm="Here is a description of the kind of projects I work on in my spare time.";
     let websiteHead="Website building";
@@ -23,11 +23,11 @@
     let websiteLi1="independantly researching methods and techniques to find and implement solutions to issues.";
     let websiteLi2="Working independantly to achieve a goal.";
     let serverHead="Home Server";
-    let serverTxt1="As part of a personal interest in computers, particularly highly capable multitasking computers, I have had a personal project of building, using, maintaining and developing my own at-home server set-up. I must give some credit for my interest to consuming youtube content from the likes of LinusTechTips, NetworkChuck and CraftComputing. In these systems I have learned extensively about hypervisors, virtualization, storing datasets, managing data, etc. With these skills I have virtualized a range of systems and functions to assist with different aspects of my daily life, including creating remotely accessible network drives, virtualizing my home video and photography collections, building test environments and a range of other tasks.";
-    let serverTxt2="This personal project has taught me:";
-    let serverLi1="How to use hypervisors, particularly Proxmox to virtualize tasks and manage servers";
-    let serverLi2="How to install and operate a range of Operating Systems to achieve different results.";
-    let serverLi3="How to utilise hardware to achieve the best results and how to troubleshoot issues in hardware and software to fix issues."
+    let serverTxt1="In pursuing a personal interest in advanced multitasking computers, I've established my own home server system, influenced in part by content from LinusTechTips, NetworkChuck, and CraftComputing. Through this endeavor, I've gained deep knowledge in hypervisors, virtualization, data storage, and management. I've effectively virtualized diverse systems to streamline various daily tasks, such as remote network drives, digitizing my multimedia collections, and constructing test environments.";
+    let serverTxt2="This initiative has enabled me to:";
+    let serverLi1="Master hypervisors, especially Proxmox, for virtualization and server management.";
+    let serverLi2="Familiarize with various Operating Systems for tailored outcomes.";
+    let serverLi3="Optimize hardware performance and troubleshoot both hardware and software issues."
 </script>
 
 
