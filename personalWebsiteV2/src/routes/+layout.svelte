@@ -1,7 +1,3 @@
-<script lang="ts">
-    export const prerender = true;
-</script>
-
 <html lang="">
 <head>
     <title>Ethan's Website</title>
