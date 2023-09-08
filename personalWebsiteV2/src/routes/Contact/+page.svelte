@@ -1,32 +1,11 @@
 <script lang="ts">
-    import { onMount } from "svelte";
     let myEmail = "4b98bce60271c880e231f471cd5067ff"
-
-    onMount(() => {
-        document.getElementById("thankYou").style.display='none';
-        document.getElementById("ContactForm").style.display='block';
-	});
-
-    function changeDivs () {
-        document.getElementById("ContactForm").style.display='none';
-        document.getElementById("thankYou").style.display='block';
-
-    }
-
-
 </script>
 
 
 <div id="contactPage">
 
-    <div id="thankYou" class="box">
-        <div id="thankYouTxt">
-            <h1>Thank You!</h1>
-        </div>
-        <div id="thankYouImg">
-            <img src="greenCheck.png" alt="green check mark" class="icons"/>
-        </div>
-    </div>
+
 
     <div id = "ContactForm" class="box">
         <h1>Contact Form</h1>
@@ -38,7 +17,8 @@
             <input class="textinput" type="text" name="phoneNumber" placeholder="Phone Number">
             <input type="text" name="_honey" style="display:none">
             <textarea rows=5 id="message" name="message" placeholder="Please type your message here!"/>
-            <button id="submit" type="submit" on:click={changeDivs}>Send</button>
+            <input type="hidden" name="_next" value="https://ethka.de/thanks">
+            <button id="submit" type="submit">Send</button>
         </form>
     </div>
 
@@ -52,12 +32,6 @@
 }
 #ContactForm h1{
     margin: 0;
-}
-#thankYou {
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 2%;
-    text-align: center;
 }
 #message {
     margin-top:1%;
