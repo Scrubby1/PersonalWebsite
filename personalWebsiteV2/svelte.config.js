@@ -11,8 +11,12 @@ const config = {
 		})
 	],
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({
+			fallback: '/src/routes/failure.html',
+		}),
+		
 		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#svelte'
 	}
 };
+
+export default config;
